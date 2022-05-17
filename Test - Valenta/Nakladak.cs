@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Test___Valenta
 {
-    class Nakladak
+    public class Nakladak
     {
         public int nosnost;
         public int palivo;
