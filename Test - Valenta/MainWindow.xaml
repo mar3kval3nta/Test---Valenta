@@ -7,16 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox Name="TextBox1" HorizontalAlignment="Left" Margin="25,36,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="250" Height="350"/>
-        <TextBox Name="TextBox2" HorizontalAlignment="Left" Margin="525,36,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="250" Height="350"/>
-        <Button Content="Naložit" HorizontalAlignment="Left" Margin="296,74,0,0" VerticalAlignment="Top" Height="50" Width="70" Click="Button_Click"/>
-        <Button Content="Vyložit" HorizontalAlignment="Left" Margin="296,151,0,0" VerticalAlignment="Top" Height="50" Width="70" Click="Button_Click_2"/>
-        <Button Content="Jet" HorizontalAlignment="Left" Margin="296,231,0,0" VerticalAlignment="Top" Height="50" Width="70"/>
-        <Button Content="Načerpat" HorizontalAlignment="Left" Margin="296,306,0,0" VerticalAlignment="Top" Height="50" Width="70"/>
-        <Button Content="Naložit" HorizontalAlignment="Left" Margin="433,74,0,0" VerticalAlignment="Top" Height="50" Width="70" Click="Button_Click_1"/>
-        <Button Content="Vyložit" HorizontalAlignment="Left" Margin="433,151,0,0" VerticalAlignment="Top" Height="50" Width="70" Click="Button_Click_3"/>
-        <Button Content="Jet" HorizontalAlignment="Left" Margin="433,231,0,0" VerticalAlignment="Top" Height="50" Width="70"/>
-        <Button Content="Načerpat" HorizontalAlignment="Left" Margin="433,306,0,0" VerticalAlignment="Top" Height="50" Width="70"/>
+        <TextBox Name="TextBox1" HorizontalAlignment="Center" Margin="0,75,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="252" Height="215"/>
+        <Button Content="Naložit" HorizontalAlignment="Left" Margin="102,338,0,0" VerticalAlignment="Top" Height="50" Width="70" Click="Button_Click"/>
+        <Button Content="Vyložit" HorizontalAlignment="Left" Margin="633,338,0,0" VerticalAlignment="Top" Height="50" Width="70" Click="Button_Click_2"/>
+        <Button Content="Jet" HorizontalAlignment="Left" Margin="274,338,0,0" VerticalAlignment="Top" Height="50" Width="100"/>
+        <Button Content="Načerpat" HorizontalAlignment="Left" Margin="426,338,0,0" VerticalAlignment="Top" Height="50" Width="100"/>
 
 
     </Grid>
