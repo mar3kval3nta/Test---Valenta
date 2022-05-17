@@ -20,15 +20,15 @@ namespace Test___Valenta
     /// </summary>
     public partial class MainWindow : Window
     {
-        Nakladak man;
+        Nakladak iveco;
 
         public MainWindow()
         {
             InitializeComponent();
 
-            man = new Nakladak();
-            man.Jmeno = "Man";
-            Zobraz(man, TextBox1);
+            iveco = new Nakladak();
+            iveco.Jmeno = "I V E C O";
+            Zobraz(iveco, TextBox1);
 
         }
 
@@ -44,14 +44,14 @@ namespace Test___Valenta
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            man.Nalozit();
-            Zobraz(man, TextBox1);
+            iveco.Nalozit();
+            Zobraz(iveco, TextBox1);
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            man.Vylozit();
-            Zobraz(man, TextBox1);
+            iveco.Vylozit();
+            Zobraz(iveco, TextBox1);
         }
 
     }
